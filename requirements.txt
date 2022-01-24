@@ -3,12 +3,5 @@ pyyaml
 matplotlib
 wget
 pyvo
-nb2workflow[cwl,oda]
-werkzeug
-rdflib
-apscheduler
-flask
-flask_caching
-flask_cors
-flasgger
-git+https://github.com/oda-hub/astroquery#egg=astroquery
+-e git+https://github.com/oda-hub/astroquery#egg=astroquery
+-e git+https://github.com/oda-hub/nb2workflow.git@master#egg=nb2workflow[service,cwl,rdf]
