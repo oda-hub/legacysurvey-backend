@@ -3,5 +3,5 @@ pyyaml
 matplotlib
 wget
 pyvo
--e git+https://github.com/oda-hub/astroquery#egg=astroquery
+-e git+https://github.com/oda-hub/astroquery@master#egg=astroquery
 -e git+https://github.com/oda-hub/nb2workflow.git@master#egg=nb2workflow[service,cwl,rdf]
