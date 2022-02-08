@@ -2,3 +2,4 @@ data
 figs
 .ipynb_checkpoints
 .venv
+.vscode
